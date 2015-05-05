@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="Bertholdo Consultoria" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="header">
+			<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"			codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+			WIDTH="770" HEIGHT="150" id="Menu" ALIGN="">
+			<PARAM NAME=movie VALUE="<{$xoops_imageurl}>images/cabecalho.swf">
+			<PARAM NAME=menu VALUE=false>
+			<PARAM NAME=quality VALUE=high>
+			<PARAM NAME=scale VALUE=exactfit> 
+			<PARAM NAME=bgcolor VALUE=#ffffff>
+			<EMBED src="<{$xoops_imageurl}>images/cabecalho.swf" menu=false quality=high scale=exactfit bgcolor=#666666  WIDTH="770" HEIGHT="150" NAME="Bertholdo" ALIGN="" TYPE="application/x-shockwave-flash" 
+			PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+			</OBJECT>
+		</div>
+		<div id="creditos">
+			&copy; 2005 <a href="http://www.bertholdo.com.br" title="55 31 3378-7397">Bertholdo Consultoria</a> <br>
+			Este portal utiliza o tema BRASILv2.
+		</div>
+		<div id="leftcolumn">
+			<!-- Start left blocks loop -->
+			<{foreach item=block from=$xoops_lblocks}>
+			<{include file="brasilv2/theme_blockleft.html"}>
+			<{/foreach}>
+			<!-- End left blocks loop -->
+		</div>
+		<{if $xoops_showrblock == 1}>
+		<div id="rightcolumn">
+			<!-- Start right blocks loop -->
+			<{foreach item=block from=$xoops_rblocks}>
+			<{include file="brasilv2/theme_blockright.html"}>
+			<{/foreach}>
+			<!-- End right blocks loop -->
+		</div>
+		<{/if}>
+		<div id="centercolumn<{$xoops_showrblock}>">
+			<!-- Display center blocks if any -->
+			<{if $xoops_showcblock == 1}>
+				<div id="centerCcolumn">
+					<!-- Start center-center blocks loop -->
+					<{foreach item=block from=$xoops_ccblocks}>
+					<{include file="brasilv2/theme_blockcenter_c.html"}>
+					<{/foreach}>
+					<!-- End center-center blocks loop -->
+				</div>
+				<div id="centerLcolumn">
+					<!-- Start center-left blocks loop -->
+					<{foreach item=block from=$xoops_clblocks}>
+					<{include file="brasilv2/theme_blockcenter_l.html"}>
+					<{/foreach}>
+					<!-- End center-left blocks loop -->
+				</div>
+				<div id="centerRcolumn">
+					<!-- Start center-right blocks loop -->
+					<{foreach item=block from=$xoops_crblocks}>
+					<{include file="brasilv2/theme_blockcenter_r.html"}>
+					<{/foreach}>	
+					<!-- End center-right blocks loop -->
+				</div>
+			<{/if}>
+			<div id="content">
+				<{$xoops_contents}>
+			</div>
+			<!-- Exibir os banners -->
+			<div id="content_banner">
+				<{$xoops_banner}>
+			</div>
+		</div>
+		<!-- End display center blocks -->		
+		
+		<div id="rodape">&copy; 2005 <a href="mailto:bertholdo@bertholdo.com.br" title="55 31 3378-7397">Bertholdo Consultoria</a> | Todos os direitos reservados
+		</div>
+	</div>
+</body>
+</html>

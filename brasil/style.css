@@ -1,0 +1,189 @@
+body {background: #fafae5 url('images/sombra.jpg') repeat-y 50% 0%; color: black; margin: 0; padding: 0;}
+
+table {width: 100%; margin: 5; padding: 5; font-size: small;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a {color: #0066cc; text-decoration: none; font-weight: normal; background-color: transparent;}
+a:hover {color: #000000; font-weight: normal;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 { font-weight: bold; margin-bottom: 1px;}
+ul { font-size: 9px; margin: 3px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { font-size: 9px; padding: 3px 5px 3px 5px; list-style: square inside; color: #999999}
+
+input.formButton {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal;}
+textarea#message {width: 300px; background-color: #ffffff;}
+textarea#hometext {width: 300px; background-color: #ffffff;}
+textarea#bodytext {width: 300px; background-color: #ffffff;}
+textarea#com_text {width: 300px; background-color: #ffffff;}
+
+.item {border: 1px solid #cdcdcd;}
+.itemHead {padding: 5px; background-color: #fafae5; color: #000000;}
+.itemInfo {text-align: right; padding: 2px; background-color: transparent; color:#999999; padding: 0px 5px 0px 0px;}
+.itemTitle a{font-size: 100%; font-weight: bold; font-variant: small-caps; color: #0066cc; background-color: transparent;}
+.itemTitle a:hover{font-size: 100%; font-weight: bold; font-variant: small-caps; color: #004b96; background-color: transparent;}
+.itemPoster {font-size: 70%; font-style:italic;}
+.itemPostDate {font-size: 70%; font-style:italic;}
+.itemStats {font-size: 70%; font-style:italic; text-align: right;}
+.itemBody {font-weight: normal; padding-left: 20px; font-size: 11px}
+.itemText {background-color: transparent; margin-top: 15px; margin-bottom: 15px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 100%; font-weight: normal;}
+.itemFoot {text-align: left; padding-left: 20px; background-color: transparent; padding-bottom: 20px; color: #0066cc;}
+.itemAdminLink {font-size: 70%; font-weight: normal;}
+.itemPermaLink {font-size: 70%; font-weight: normal;}
+
+th {background-color: transparent; color: black; padding : 5px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+/*-------------------
+    Menu Principal
+  -------------------*/
+td#mainmenu a {font-size:11px; font-weight: normal; background-color: transparent; display: block; margin: 0; padding: 4px; border-bottom: 1px solid #cdcdcd;}
+td#mainmenu a:hover {background-color: transparent; font-weight: normal; solid #cdcdcd}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {border-bottom: 1px solid #cdcdcd;}
+td#mainmenu a.menuSub {padding-left: 15px; border-bottom: 1px solid #cdcdcd;}
+
+/*-------------------
+    Menu Pessoal
+  -------------------*/
+td#usermenu a {font-size:11px; font-weight: normal; background-color: transparent; display: block; margin: 0; padding: 4px; border-bottom: 1px solid #cdcdcd;}
+td#usermenu a:hover {background-color: transparent; font-weight: normal;}
+td#usermenu a.menuTop {}
+td#usermenu a.menuMain {border-bottom: 1px solid #cdcdcd;}
+td#usermenu a.highlight {color: #dd0000; background-color: #ffeedd;}
+
+div#generalmenu a {background-color: transparent; display: block; margin: 0; padding: 4px; border-bottom: 1px solid #cdcdcd;}
+div#generalmenu a:hover {background-color: #ffeedd;}
+div#generalmenu a.menuTop {}
+div#generalmenu a.menuMain {border-bottom: 1px solid #cdcdcd;}
+div#generalmenu a.menuSub {padding-left: 15px; border-bottom: 1px solid #cdcdcd;}
+
+div#miscmenu a {background-color: transparent; display: block; margin: 0; padding: 4px; border-bottom: 1px solid #cdcdcd;}
+div#miscmenu a:hover {background-color: #ffeedd;}
+div#miscmenu a.menuTop {}
+div#miscmenu a.menuMain {border-bottom: 1px solid #cdcdcd;}
+div#miscmenu a.menuSub {padding-left: 15px; border-bottom: 1px solid #cdcdcd;}
+
+div#wikimenu a {background-color: transparent; display: block; margin: 0; padding: 4px; border-bottom: 1px solid #cdcdcd;}
+div#wikimenu a:hover {background-color: #ffeedd;}
+div#wikimenu a.menuTop {}
+div#wikimenu a.menuMain {border-bottom: 1px solid #cdcdcd;}
+div#wikimenu a.menuSub {padding-left: 15px; border-bottom: 1px solid #cdcdcd;}
+
+.outer {text-align: left; background-color: #0066cc; font-family: verdana; font-size: 13px; color: black;}
+.outer th {background-color: #0066cc; color: #ffffff;}
+.outer th a {color: #b1d2f2;}
+.head {background-color: #fafae5; padding: 10px; font-size: 11px; vertical-align: middle; text-align: right; font-weight: normal; color: black}
+.even {background-color: #fafae5; font-size: 11px; padding: 10px 5px 10px 5px; font-weight: normal; text-align: left;}
+.odd {background-color: #fafae5; padding: 10px 5px 10px 5px; text-align: left; font-size: 11px; vertical-align: middle;}
+.foot {background-color: #fafae5; padding: 5px 5px 5px 5px; font-weight: bold;}
+tr.even td {background-color: #b1d2f2; padding: 2px; text-align: middle;}
+tr.odd td {background-color: #b1d2f2; padding: 2px; text-align: middle;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; font-size: 100%;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.bcenterbg {background-image: url('center_bg.gif'); font-size: 12px; font-weight: bold; height: 37px; letter-spacing: 1px; line-height:37px; vertical-align: bottom;}
+.bcenterleft {background-image: url('center_left.gif'); height: 37px; width: 11px;}
+.bcenterright {background-image: url('center_right.gif'); height: 37px; width: 175px;}
+.bcenter {border-left: #cccccc 1px solid; border-right: #cccccc 1px solid; border-bottom: #cccccc 1px solid;}
+.bcentercontent {text-align: left; padding: 8px;}
+
+/*-------------------------------------------------------------------------
+    Essas linhas foram inseridas para personalizar o tema
+  -------------------------------------------------------------------------*/
+
+.left_block {padding: 0px 0px 0px 0px; position: relative; left: 0px; top:0px;}
+.left_block_title {float: left; font-family: verdana; vertical-align: middle; text-align: left; width: 155px; padding: 0px 0px 0px 0px; color: #0066cc; font-weight: normal; font-size: 11px;}
+.left_block_content {padding: 5px 10px 10px 5px; background-color: #ffffcc; width: 155px; line-height: 13px; font-size: 9px; font-weight: normal;}
+.left_block_content a {color: #0066cc; font-weight: normal;}
+.left_block_content a:hover {color: #000000; font-weight: normal;}
+
+.main_table {background-image: transparent; border-top: 2px solid #999999; border-bottom: 0px solid #000000;}
+.main_table2 {background-color: #fffff2;}
+.main_table_td {background-color: #fffff2; border-left: 20px solid #ffffff; border-right: 20px solid #ffffff;}
+.main_table_lateral {background-color: #fafae5;}
+
+select {background: #b1d2f2; font: 9px verdana, arial, helvetica,sans-serif;}
+
+/*-------------------------------------------------------------------------
+	Nova formatação utilizando tableLESS
+  -------------------------------------------------------------------------*/
+
+div#page {position: relative; width: 770px; margin-left: auto; margin-right: auto; background: #fffff2; border: 10px solid #ffffff;}
+div#header {width: 100%; text-align: center;}
+div#creditos {display: none; width: 100%; text-align: center;}
+div#headerbanner {width: 100%; background-color: #fffff2; vertical-align: middle; text-align:center;}
+
+div#center {position: absolute; top: 20px;}
+
+div#leftcolumn {position: relative; float: left; top: 20px; left: 0px; width: 155px; border-right: 0px solid #cdcdcd; font-size:11px; border: 0px solid green;}
+div.blockTitle {padding: 3px; background-color: #eeeeff; color: #639ACE; font-weight: normal;}
+div.blockContent {padding: 2px 0px 2px 3px; line-height: 110%; padding-left: 15px;font-size:10px;}
+
+div#rightcolumn {position: relative; float: right; top: 20px; right: 0px; width: 155px; border-left: 0px solid #cdcdcd; font-size:11px;}
+div#rightcolumn div.blockTitle {padding: 3px; background-color: #eeeeff; color: #639ACE; font-weight: normal;}
+div#rightcolumn div.blockContent {padding: 3px; line-height: 110%; padding-left: 15px; font-size:10px;}
+
+div#centercolumn0 {position: relative; float: left; top: 20px; width: 595px; margin: 0px 0px 0px 20px; font-size: 11px;}
+div#centercolumn1 {position: relative; float: left; top: 20px; width: 440px; margin: 0px 10px 0px 10px; font-size: 11px;}
+
+div#centerCcolumn {position: relative; float: center; bottom: 5px; width: 100%; font-family: verdana; font-size: 13px; padding: 0px 0px 0px 0px;}
+div#centerCcolumn div.blockTitle {padding: 10px; color: #639ACE; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+div#centerCcolumn div.blockContent {font-size:11px; padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 0px; line-height: 120%;}
+
+div#centerLcolumn {position: relative; float: left; bottom: 5px; width: 48%; font-family: verdana; font-size: 13px;}
+div#centerLcolumn legend.blockTitle {padding: 10px; color: #639ACE; font-weight: bold; margin-top: 0px;}
+div#centerLcolumn div.blockContent {border-left: 1px solid #cccccc; border-left: 0px solid #cccccc; border-right: 0px solid #cccccc; border-bottom: 0px solid #dddddd; padding: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; line-height: 120%;}
+
+div#centerRcolumn {position: relative; float: right; bottom: 5px; width: 48%; font-family: verdana; font-size: 13px;}
+div#centerRcolumn legend.blockTitle {padding: 0px; color: #639ACE; font-weight: bold; margin-top: 0px;}
+div#centerRcolumn div.blockContent {border-left: 0px solid #cccccc; border-left: 0px solid #cccccc; border-right: 0px solid #cccccc; border-bottom: 0px solid #dddddd; padding: 5px 5px 5px 5px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; line-height: 120%;}
+
+div#content {position: relative; float: center; bottom: 25px; width: 100%; font-family: verdana; font-size: 13px; margin-top: 25px;}
+div#content_banner {display: none; position: relative; bottom: 10px; width: 100%; text-align: center; margin-top: 0px; padding: 50px 0px 20px 0px;}
+
+div#footerbar {text-align:center; background-image: url(hbar.gif);}
+div#rodape {right: 0px; bottom: 0px; width: 100%; background-color: #e8e8da; border-top: 1px solid #999999; border-bottom: 1px solid #999999; text-align: center; padding: 5px 0px 5px 0px; margin-top: 10px; font-family: verdana; color: #0066cc; font-size: 10px;}
+
+div#right_block {width: 155px; height: 100%; padding: 0px 0px 10px 0px;}
+div#right_block_title {position: relative; float: center; background: url('images/bkg_brs_02.gif'); width: 100%; height: 26px; vertical-align: middle;}
+div#right_block_title_t1 {position: relative; float: left; background: url('images/bkg_brs_01b.gif'); width: 45px; height: 100%;}
+div#right_block_title_t2 {position: relative; float: right; width: 100px; height: 26px; vertical-align: middle; line-height: 26px; color: #0066cc; font-weight: normal; font-size: 11px; font-family: verdana; text-align: left;}
+div#right_block_content {background-color: #ffffcc; width: 155px; line-height: 13px; font-size: 9px; font-family: Verdana; font-size: 11px; font-weight: normal; text-align: center;}
+div#right_block_content a {color: #0066cc; font-weight: normal;}
+div#right_block_content a:hover {color: #000000; font-weight: normal;}
+div#right_block_content_area {padding: 8px 5px 8px 5px; text-align: center;}
+div#right_block_content_area select {width: 100%}
+div#right_block_footer {background: url('images/bkg_brs_03.gif'); width: 155px; height: 17px;}
+
+div#left_block {width: 155px; height: 100%; padding: 0px 0px 10px 0px;}
+div#left_block_title {position: relative; float: center; background: url('images/bkg_brs_02.gif'); width: 100%; height: 26px; vertical-align: middle;}
+div#left_block_title_t1 {position: relative; float: left; background: url('images/bkg_brs_01.gif'); width: 45px; height: 100%;}
+div#left_block_title_t2 {position: relative; float: right; width: 100px; height: 26px; vertical-align: middle; line-height: 26px; color: #0066cc; font-weight: normal; font-size: 11px; font-family: verdana; text-align: left;}
+div#left_block_content {background-color: #ffffcc; width: 155px; line-height: 13px; font-size: 9px; font-family: Verdana; font-size: 11px; font-weight: normal; text-align: center;}
+div#left_block_content a {color: #0066cc; font-weight: normal;}
+div#left_block_content a:hover {color: #000000; font-weight: normal;}
+div#left_block_content_area {padding: 8px 5px 8px 5px; text-align: center;}
+div#right_block_content_area select {width: 100%}
+div#left_block_footer {background: url('images/bkg_brs_03.gif'); width: 155px; height: 17px;}
